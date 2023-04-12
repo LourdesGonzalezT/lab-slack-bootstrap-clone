@@ -11,11 +11,11 @@ img {
 }
 
 .menu {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #F4F3F4;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background: white;
     width: 100%;
     position: fixed;
     padding: 10px;
@@ -42,7 +42,7 @@ img {
     width: 100px;
 }
 
-.navicom {
+.navicon {
     width: 2%;
 }
 
@@ -55,9 +55,11 @@ img {
 .menutext {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-decoration: none;
     list-style: none;
     color: black;
+
 }
 
 li {
@@ -68,6 +70,12 @@ li {
 
 }
 
+.margin {
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .formulary {
     padding: 2%;
 }
@@ -75,18 +83,102 @@ li {
 .startbutton {
     background-color: #192592;
     color: white;
-    padding: 2%;
 }
 
 .yousection {
     background-color: #F4F3F4;
 }
 
-.trysection {}
+.button.dark {
+    display: block;
+    border: 0.9px solid #3349b6;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+}
 
-.companysect {}
+a.button.dark {
+    text-align: center;
+    color: #3349b6;
+    font-weight: 700;
+}
+
+a {
+    color: #5b5e6d;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+    white-space: nowrap;
+    font-size: 700;
+}
+
+.text-one {
+    padding-top: 30px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.p-text {
+    text-align: center;
+    font-size: 1em;
+}
+
+.yousection img {
+    padding: 40px 40px;
+    margin-left: 40px;
+    width: 70%;
+}
 
 .companysect li a {
     color: #5b5e6d;
     text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F4F3F4;
+
+}
+
+.footer ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.footer li {
+    margin-left: 10px;
+}
+
+.footer a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 10%;
+}
+
+/* Mobile screen */
+@media screen and(max-width:576px) {}
+
+
+/* Medium screen */
+@media screen and(min-width:577px) and (max-width: 768px) {}
+
+/* Large screen */
+@media screen and (min-width:770px) {
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .menu .menutext {
+        display: block;
+    }
+
 }
