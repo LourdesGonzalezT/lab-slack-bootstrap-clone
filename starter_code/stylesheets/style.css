@@ -5,3 +5,88 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+}
+
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navicom {
+    width: 2%;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+
+}
+
+.menutext {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+li {
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+
+.formulary {
+    padding: 2%;
+}
+
+.startbutton {
+    background-color: #192592;
+    color: white;
+    padding: 2%;
+}
+
+.yousection {
+    background-color: #F4F3F4;
+}
+
+.trysection {}
+
+.companysect {}
+
+.companysect li a {
+    color: #5b5e6d;
+    text-decoration: none;
+}
